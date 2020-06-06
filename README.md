@@ -1,2 +1,2 @@
 # mlops
-Integrating ML with jenkins and docker
+Integrating ML with Jenkins and Docker
