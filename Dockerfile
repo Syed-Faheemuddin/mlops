@@ -7,7 +7,6 @@ RUN pip3 install --upgrade pip setuptools wheel
 RUN pip3 install numpy
 RUN pip3 install pillow
 RUN pip3 install pandas
-RUN pip3 install sklearn
 RUN pip3 install tensorflow 
 RUN pip3 install keras
 RUN pip3 install matplotlib
