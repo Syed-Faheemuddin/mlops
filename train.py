@@ -99,6 +99,7 @@ model.add(Dense(units=128, activation='relu'))
 model.add(Dense(units=64, activation='relu'))
 model.add(Dense(units=32, activation='relu'))
 model.add(Dense(units=1, activation='sigmoid'))
+model.summary()
 model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
 
 
@@ -133,7 +134,7 @@ model.fit(
 
 # In[ ]:
 
-
+print("No. of epochs are",r)
 print((max(model.history.history['accuracy'])))
 if (max(model.history.history['accuracy'])) > 0.90:
      model.save('my.h5')
