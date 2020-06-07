@@ -13,4 +13,5 @@ RUN pip3 install matplotlib
 RUN pip3 install seaborn
 
 WORKDIR /root/mlops-project/
+CMD /bin/bash
 CMD ["python3","train.py"]
