@@ -17,7 +17,6 @@ model = Sequential()
 
 # In[ ]:
 
-
 r= randint(0,5)
 if r == 1 :
     model.add(Convolution2D(filters=64, 
