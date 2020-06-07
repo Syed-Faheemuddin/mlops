@@ -133,7 +133,6 @@ model.fit(
 
 # In[ ]:
 
-print("No. of epochs are",r)
 print((max(model.history.history['accuracy'])))
 if (max(model.history.history['accuracy'])) > 0.90:
      model.save('my.h5')
