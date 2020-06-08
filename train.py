@@ -136,7 +136,7 @@ model.fit(
 print((max(model.history.history['accuracy'])))
 if (max(model.history.history['accuracy'])) > 0.90:
      model.save('my.h5')
-file=open('/root/project/accuracy.txt',"w")
-file.write(max(model.history.history['accuracy']))
+file=open('/root/project/accuracy.txt',"w+")
+file.write(str(max(model.history.history['accuracy'])))
 file.close()
     
