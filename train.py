@@ -3,7 +3,6 @@
 
 # In[ ]:
 
-
 from keras.layers import Convolution2D,MaxPooling2D,Flatten,Dense 
 from keras.models import Sequential
 from random import randint
