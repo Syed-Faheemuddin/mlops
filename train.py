@@ -104,7 +104,7 @@ model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy']
 # In[ ]:
 
 
-r=randint(1,3)
+r=randint(1,5)
 from keras_preprocessing.image import ImageDataGenerator
 train_datagen = ImageDataGenerator(
         rescale=1./255,
